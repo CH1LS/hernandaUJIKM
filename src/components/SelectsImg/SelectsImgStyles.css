@@ -1,0 +1,43 @@
+.selects img {
+    height: 100%;
+    width: 100%;
+}
+
+.selects-location {
+    position: relative;
+}
+
+.selects-location .overlay {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.selects-location p {
+    position: absolute;
+    bottom: 2rem;
+    left: 1rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.selects-location span.subtext {
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 540;
+}
+.selects-location span.uang {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;
+    color: #fffbfb;
+    font-size: 2.5rem;
+    font-weight: 1300;
+}
